@@ -1,0 +1,118 @@
+.main {
+	background-color: black;
+	font-family: Lato;		
+    letter-spacing: 0.23px;	
+	line-height: 15px;
+	font-weight: lighter;
+}
+
+.container {
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.Endless {
+	background-color: grey;
+	height: 40px;
+	background-repeat: no-repeat;
+}
+
+.Endless img {
+	height: 12px;
+	margin-top: 10px;
+	margin-left: 15%;
+}
+
+.Image img {
+	width: 100%;
+}
+
+.centered {
+	position: absolute;
+	top: 75%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	color:whitesmoke;
+  }
+  .howItWorks {
+	  background-color: whitesmoke !important;
+  }
+.HowItWorksButton {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	cursor: pointer;
+}
+
+.Steps {
+	word-wrap: break-word !important;
+}
+
+.btn-primary {
+    color: black !important;
+    background-color: aqua !important ;
+	border-color: aqua !important;
+	border-radius: 15% !important;
+	margin-top: 10px;
+	width: 120px !important;
+}
+
+.row-padding {
+    padding: 25px !important;
+		margin-bottom: 25px !important;
+		font-family: Lato;		
+    letter-spacing: 0.23px;	
+	line-height: 15px;
+	font-weight: lighter;
+}
+
+h3 {
+	text-align: center;
+	padding-bottom: 5px;
+}
+.underline {
+	border-top: 2px solid aqua !important;
+	width: 50px;
+}
+
+
+@media only screen and (max-width: 680px) {
+	.centered {
+		position: absolute;
+		top: 35%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		color:whitesmoke;
+	  }
+	  h2{
+		  font-size: 18px !important;
+	  }
+	  h6{
+		  font-size: 14px !important;
+	  }
+	  p{
+		  font-size:12px !important;
+	  }
+}
+
+@media only screen and (min-width: 681px) and (max-width: 770px) {
+	.centered {
+		position: absolute;
+		top: 45%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		color:whitesmoke;
+	  }
+}
+
+
+
+@media only screen and (min-width: 771px) and (max-width: 1000px) {
+	.centered {
+		position: absolute;
+		top: 60%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		color:whitesmoke;
+	  }
+}
